@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root{
+    --cordefundo: #89fbfd59;
+    --cordaletra: #0c3233;
+    --corescura: #272b2dcc;
+    --destaque: "Courier Prime";
+    --fontepadrao: Arial, Helvetica, Sans-Serif
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cordefundo);
+    color: var(--cordaletra);
+    font-family: var(--fontepadrao);
+}
+
+header{
+    background-image: linear-gradient(to top, #064e77, #6391a7);
+    text-align: center;
+}
+
+main p{
+    margin: 15px, 0px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.3em;
+    font-size: 1.1em;
+}
+
+main strong{
+    color: var(--cordaletra);
+    font-weight: bold;
+    background-color: ;
+}
+
+nav{
+    background-color: #064e77;
+    padding: 10px;
+    box-shadow: 0px, 7px, 9px black;
+    font-weight: bold;
+}
+
+nav > a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    margin-bottom: 30px;
+}
+
+nav >a:hover{
+    background-color: var(--cordefundo);
+}
+
+header > h1{
+    font-family: var(--destaque);
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.612);
+}
+
+header > p{
+    color: white;
+    min-height: 150px;
+    font-family: var(--fontepadrao);
+    font-size: 1.5em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+
+main > h1{
+    font-family: var(--destaque);
+    color: var(--cordaletra);
+}
+
+main > h2{
+    font-family: var(--fontepadrao);
+    color: var(--cordefundo);
+}
+
+main > h3{
+    font-family: var(--fontepadrao);
+}
+
+main img.pequena{
+    max-width: 100px
+}
+
+aside{
+    background-color: var(--cordefundo);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside > h3{
+    background-color: var(--cordaletra);
+    color: white;
+    padding: 10px;
+    margin: -10px, -10px, 0px, -10px;
+    border-radius: 10px, 10px, 0px, 0px;
+}
+
+footer{
+    background-color: var(--corescura);
+    color: white;
+    text-align: center;
+    font-size: 0.8;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: UNDERLINE;
+    color: var(--cordefundo);
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cordaletra);
+    background-color: aqua;
+    padding: 2px, 6px;
+}
+ main a:hover{
+    text-decoration: underline;
+    color: var(--cordefundo);
+ }
+
+ a.externo:after{
+    content: '\00A0\1F517';
+ }
+
+ div.video{
+    background-color: var(--cordaletra);
+    margin-bottom: 30px;
+    margin: 0px, -20px, 30px, -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 58.5%;
+ }
+
+ div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+ }
+
